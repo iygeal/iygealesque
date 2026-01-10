@@ -35,6 +35,7 @@ export default function Home() {
         <div>Production deployments</div>
         <div>REST APIs & databases</div>
         <div>Render • Vercel • Cloud services</div>
+        <h1 className="text-6xl font-bold text-red-500">Tailwind is alive</h1>
       </div>
     </section>
   );
