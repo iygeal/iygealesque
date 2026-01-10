@@ -15,9 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-neutral-950 text-neutral-100">
+      <body className="min-h-screen bg-neutral-950 text-neutral-100 flex flex-col">
         <Navbar />
-        <main className="max-w-6xl mx-auto px-6 py-16">{children}</main>
+        <main className="flex-grow max-w-6xl mx-auto px-6 py-16">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
