@@ -8,8 +8,7 @@ export default function ProjectsPage() {
         <h1 className="text-3xl md:text-4xl font-bold">Selected Projects</h1>
 
         <p className="text-slate-300">
-          Real-world backend and fullstack applications designed, deployed, and
-          maintained in production environments.
+          Production-ready backend and fullstack systems designed, deployed, and maintained in live production environments.
         </p>
       </div>
 
