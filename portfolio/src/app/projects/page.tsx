@@ -18,7 +18,7 @@ export default function ProjectsPage() {
         {/* RightsPlace */}
         <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
           {/* Project Image */}
-          <div className="relative w-full h-48 md:h-54 overflow-hidden rounded-lg border border-slate-700 ">
+          <div className="relative w-full h-48 md:h-56 overflow-hidden rounded-lg border border-slate-700 ">
             <Image
               src="/projects/rightsplace-home.png"
               alt="RightsPlace homepage"
@@ -104,6 +104,16 @@ export default function ProjectsPage() {
 
         {/* Mentorship Matching Platform */}
         <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+          {/* Project Image */}
+          <div className="relative w-full h-48 md:h-56 overflow-hidden rounded-lg border border-slate-700 ">
+            <Image
+              src="/projects/mentorship-home.png"
+              alt="Mentorship Matching Platform homepage"
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-[1.01]"
+              priority
+            />
+          </div>
           <div className="space-y-2">
             <h2 className="text-2xl font-semibold">
               Mentorship Matching Platform
