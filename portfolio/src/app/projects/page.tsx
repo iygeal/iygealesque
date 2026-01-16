@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ProjectsPage() {
   return (
     <section className="space-y-16">
@@ -15,6 +17,17 @@ export default function ProjectsPage() {
       <div className="space-y-12">
         {/* RightsPlace */}
         <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+          {/* Project Image */}
+          <div className="relative w-full h-48 md:h-54 overflow-hidden rounded-lg border border-slate-700 ">
+            <Image
+              src="/projects/rightsplace-home.png"
+              alt="RightsPlace homepage"
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-[1.01]"
+              priority
+            />
+          </div>
+
           <div className="space-y-2">
             <h2 className="text-2xl font-semibold">RightsPlace</h2>
             <p className="text-sm text-emerald-400">
@@ -31,14 +44,18 @@ export default function ProjectsPage() {
 
           {/* Responsibilities / System Design */}
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-blue-200/80">
-            <li className="leading-relaxed">• Designed and implemented Django backend architecture</li>
+            <li className="leading-relaxed">
+              • Designed and implemented Django backend architecture
+            </li>
             <li className="leading-relaxed">
               • Integrated PostgreSQL (Neon) with migrations and admin workflows
             </li>
             <li className="leading-relaxed">
               • Implemented Cloudinary-based media storage and optimization
             </li>
-            <li className="leading-relaxed">• Deployed and managed production environment on Render</li>
+            <li className="leading-relaxed">
+              • Deployed and managed production environment on Render
+            </li>
           </ul>
 
           {/* Tech Stack */}
@@ -108,8 +125,12 @@ export default function ProjectsPage() {
             <li className="leading-relaxed">
               • Designed and implemented Express.js backend with TypeScript
             </li>
-            <li className="leading-relaxed">• Built RESTful APIs for matching logic and user workflows</li>
-            <li className="leading-relaxed">• Modeled application data using MongoDB</li>
+            <li className="leading-relaxed">
+              • Built RESTful APIs for matching logic and user workflows
+            </li>
+            <li className="leading-relaxed">
+              • Modeled application data using MongoDB
+            </li>
             <li className="leading-relaxed">
               • Deployed backend and frontend independently (Render & Vercel)
             </li>
