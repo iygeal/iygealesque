@@ -18,7 +18,7 @@ export default function Footer() {
             className="hover:text-slate-300 transition"
             aria-label="Email"
           >
-            <Mail className="w-4 h-4" />
+            <Mail className="w-6 h-6" />
           </a>
 
           <a
@@ -28,7 +28,7 @@ export default function Footer() {
             className="hover:text-slate-300 transition"
             aria-label="GitHub"
           >
-            <Github className="w-5 h-5" />
+            <Github className="w-6 h-6" />
           </a>
 
           <a
@@ -39,7 +39,7 @@ export default function Footer() {
             aria-label="LinkedIn"
 
           >
-            <Linkedin className="w-5 h-5" />
+            <Linkedin className="w-6 h-6" />
           </a>
         </div>
 
