@@ -53,7 +53,7 @@ export default function Contact() {
 
       {/* Closing CTA */}
       <p className="text-sm text-slate-400">
-        Open to freelance work, contract roles, and collaboration on
+        I am open to freelance work, contract roles, and collaboration on
         production-grade systems.
       </p>
     </section>

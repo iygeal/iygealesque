@@ -1,3 +1,4 @@
+import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
 export default function ProjectsPage() {
@@ -8,21 +9,22 @@ export default function ProjectsPage() {
         <h1 className="text-3xl md:text-4xl font-bold">Selected Projects</h1>
 
         <p className="text-slate-300">
-          Production-ready backend and fullstack systems designed, deployed, and maintained in live production environments.
+          Production-ready backend and fullstack systems designed, deployed, and
+          maintained in live production environments.
         </p>
       </div>
 
       {/* Projects List */}
       <div className="space-y-12">
         {/* RightsPlace */}
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+        <ProjectCard>
           {/* Project Image */}
           <div className="relative w-full h-48 md:h-56 overflow-hidden rounded-lg border border-slate-700 ">
             <Image
               src="/projects/rightsplace-home.png"
               alt="RightsPlace homepage"
               fill
-              className="object-cover transition-transform duration-300 hover:scale-[1.01]"
+              className="object-cover transition-all duration-300 ease-out hover:scale-[1.01]"
               priority
             />
           </div>
@@ -35,7 +37,10 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            RightsPlace is a production-grade human rights incident reporting platform built to securely collect, store, and manage sensitive data, with a focus on reliability, data integrity, and scalable media handling.
+            RightsPlace is a production-grade human rights incident reporting
+            platform built to securely collect, store, and manage sensitive
+            data, with a focus on reliability, data integrity, and scalable
+            media handling.
           </p>
 
           {/* Responsibilities / System Design */}
@@ -96,17 +101,18 @@ export default function ProjectsPage() {
               Source Code
             </a>
           </div>
-        </div>
+        </ProjectCard>
 
         {/* Mentorship Matching Platform */}
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+        <ProjectCard>
           {/* Project Image */}
           <div className="relative w-full h-48 md:h-56 overflow-hidden rounded-lg border border-slate-700 ">
             <Image
               src="/projects/mentorship-home.png"
               alt="Mentorship Matching Platform homepage"
               fill
-              className="object-cover transition-transform duration-300 hover:scale-[1.01]"
+className="object-cover transition-all duration-300 ease-out hover:scale-[1.01]"
+
               priority
             />
           </div>
@@ -120,7 +126,9 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            An API-driven mentorship matching platform featuring a TypeScript/Express backend and a React frontend, architected for clean data modeling, scalability, and separated deployments.
+            An API-driven mentorship matching platform featuring a
+            TypeScript/Express backend and a React frontend, architected for
+            clean data modeling, scalability, and separated deployments.
           </p>
 
           {/* Responsibilities */}
@@ -182,9 +190,9 @@ export default function ProjectsPage() {
               Source Code
             </a>
           </div>
-        </div>
+        </ProjectCard>
         {/* PayFlow */}
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+        <ProjectCard>
           <div className="space-y-2">
             <h2 className="text-2xl font-semibold">PayFlow</h2>
             <p className="text-sm text-emerald-400">
@@ -193,9 +201,11 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            PayFlow is a RESTful digital wallet API simulating real-world financial workflows, including authentication, wallet funding, peer-to-peer transfers, and transaction history. The system is designed with a
-            focus on secure authentication, transactional workflows, and clear
-            API documentation.
+            PayFlow is a RESTful digital wallet API simulating real-world
+            financial workflows, including authentication, wallet funding,
+            peer-to-peer transfers, and transaction history. The system is
+            designed with a focus on secure authentication, transactional
+            workflows, and clear API documentation.
           </p>
 
           {/* Responsibilities */}
@@ -267,7 +277,7 @@ export default function ProjectsPage() {
               Source Code
             </a>
           </div>
-        </div>
+        </ProjectCard>
       </div>
     </section>
   );

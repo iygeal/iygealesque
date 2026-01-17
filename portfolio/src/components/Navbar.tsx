@@ -14,14 +14,25 @@ export default function Navbar() {
         <nav className="flex items-center gap-8 text-sm">
           <Link
             href="/projects"
-            className="text-slate-400 hover:text-slate-100 transition"
+            className="
+            text-slate-400 hover:text-slate-100 transition
+            relative hover:text-slate-100 transition
+            after:absolute after:left-0 after:-bottom-1
+            after:w-0 after:h-px after:bg-blue-400
+            hover:after:w-full after:transition-all
+          "
           >
             Projects
           </Link>
 
           <Link
             href="/contact"
-            className="text-slate-400 hover:text-slate-100 transition"
+            className="text-slate-400 hover:text-slate-100 transition
+                        relative hover:text-slate-100 transition
+            after:absolute after:left-0 after:-bottom-1
+            after:w-0 after:h-px after:bg-blue-400
+            hover:after:w-full after:transition-all
+            "
           >
             Contact
           </Link>

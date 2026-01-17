@@ -17,14 +17,25 @@ export default function Home() {
         <div className="flex flex-wrap gap-4">
           <a
             href="/projects"
-            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition text-white rounded-lg font-medium"
+            className="
+              px-6 py-3 bg-blue-500
+              hover:bg-blue-600
+              transition-all duration-200
+              text-white rounded-lg font-medium
+              hover:-translate-y-0.5
+              active:translate-y-0
+            "
           >
             View Projects
           </a>
 
           <a
             href="/contact"
-            className="px-6 py-3 border border-slate-700 rounded-lg text-slate-200 hover:border-slate-600 transition"
+            className="
+              px-6 py-3 border border-slate-700
+              rounded-lg text-slate-200
+              transition-all duration-200
+              hover:border-slate-600 hover:text-white"
           >
             Work With Me
           </a>
@@ -34,7 +45,11 @@ export default function Home() {
             href="https://www.canva.com/design/DAGcBJB72j0/hkZ5flPylU6SOD31xAu_5w/edit?utm_content=DAGcBJB72j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 border border-slate-700 rounded-lg text-slate-400 hover:text-slate-200 transition"
+            className="
+              px-6 py-3 border border-slate-700
+              rounded-lg text-slate-200
+              transition-all duration-200
+              hover:border-slate-600 hover:text-white"
           >
             View CV
           </a>
