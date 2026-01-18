@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="w-full border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         {/* Brand */}
-        <Link href="/" className="text-lg font-semibold tracking-tight">
+        <Link href="/" className="text-lg font-semibold tracking-tight hover:underline underline-offset-4">
           <span className="text-slate-100">IYGEAL</span>
           <span className="text-blue-400">.dev</span>
         </Link>

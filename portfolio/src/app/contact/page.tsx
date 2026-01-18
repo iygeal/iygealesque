@@ -22,7 +22,7 @@ export default function Contact() {
           <Mail className="w-5 h-5 text-slate-400" />
           <a
             href="mailto:iygeal@gmail.com"
-            className="text-lg text-blue-400 hover:underline"
+            className="text-lg text-blue-400 hover:underline underline-offset-4"
           >
             iygeal@gmail.com
           </a>
@@ -33,7 +33,7 @@ export default function Contact() {
           href="https://github.com/iygeal"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-4 text-lg hover:text-slate-100 transition"
+          className="flex items-center gap-4 text-lg hover:text-slate-100 transition hover:underline underline-offset-4"
         >
           <Github className="w-5 h-5 text-slate-400" />
           <span>GitHub</span>
@@ -44,7 +44,7 @@ export default function Contact() {
           href="https://linkedin.com/in/iygeal"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-4 text-lg hover:text-slate-100 transition"
+          className="flex items-center gap-4 text-lg hover:text-slate-100 transition hover:underline underline-offset-4"
         >
           <Linkedin className="w-5 h-5 text-slate-400" />
           <span>LinkedIn</span>
@@ -52,7 +52,7 @@ export default function Contact() {
       </div>
 
       {/* Closing CTA */}
-      <p className="text-sm text-slate-400">
+      <p className="text-lg text-slate-400">
         I am open to freelance work, contract roles, and collaboration on
         production-grade systems.
       </p>
