@@ -1,8 +1,10 @@
 import ProjectCard from "@/components/ProjectCard";
+import PageWrapper from "@/components/PageWrapper";
 import Image from "next/image";
 
 export default function ProjectsPage() {
   return (
+    <PageWrapper>
     <section className="space-y-16">
       {/* Page Header */}
       <div className="space-y-4 max-w-3xl">
@@ -280,5 +282,6 @@ className="object-cover transition-all duration-300 ease-out hover:scale-[1.01]"
         </ProjectCard>
       </div>
     </section>
+    </PageWrapper>
   );
 }

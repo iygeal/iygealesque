@@ -1,5 +1,8 @@
+
+import PageWrapper from "@/components/PageWrapper";
 export default function Home() {
   return (
+    <PageWrapper>
     <section className="space-y-16">
       {/* Hero */}
       <div className="space-y-6 max-w-4xl">
@@ -10,7 +13,7 @@ export default function Home() {
 
         <p className="text-lg text-slate-300 max-w-3xl">
           I design, build, and deploy scalable backend APIs and data-driven
-          applications using Django, Flask, Express, SQL & NoSQL databases, and
+          systems using Django, Flask, Express, SQL & NoSQL databases, and
           modern cloud platforms.
         </p>
 
@@ -87,5 +90,6 @@ export default function Home() {
         <div>CS50 & ALX-trained engineer</div>
       </div>
     </section>
+    </PageWrapper>
   );
 }

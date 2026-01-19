@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://github.com/iygeal"
+            href="https://www.github.com/iygeal"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-300 transition
@@ -37,7 +37,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/iygeal"
+            href="https://www.linkedin.com/in/iygeal"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-slate-300 transition

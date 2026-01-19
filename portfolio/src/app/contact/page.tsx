@@ -1,7 +1,9 @@
 import { Mail, Github, Linkedin } from 'lucide-react';
+import PageWrapper from "@/components/PageWrapper";
 
 export default function Contact() {
   return (
+    <PageWrapper>
     <section className="space-y-12 max-w-3xl">
       {/* Header */}
       <div className="space-y-4">
@@ -10,7 +12,7 @@ export default function Contact() {
         </h1>
 
         <p className="text-slate-300 text-lg">
-          If you're looking for a Backend Engineer to build, improve, or scale
+          If you're looking for a backend engineer to build, improve, or scale
           your system, feel free to reach out.
         </p>
       </div>
@@ -30,7 +32,7 @@ export default function Contact() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/iygeal"
+          href="https://www.github.com/iygeal"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 text-lg hover:text-slate-100 transition hover:underline underline-offset-4"
@@ -41,7 +43,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/iygeal"
+          href="https://www.linkedin.com/in/iygeal"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 text-lg hover:text-slate-100 transition hover:underline underline-offset-4"
@@ -57,5 +59,6 @@ export default function Contact() {
         production-grade systems.
       </p>
     </section>
+    </PageWrapper>
   );
 }
