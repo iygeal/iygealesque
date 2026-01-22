@@ -32,10 +32,10 @@ export default function About() {
             software practices. My experience there exposed me to leading and
             collaborating with teams, building APIs, managing databases, and
             working with deployment pipelines and server configurations.
-            <p className="mt-4 text-slate-200 font-medium">
-              I have shipped systems that handle real users, real data, and real
-              constraints.
-            </p>
+          </p>
+          <p className="mt-4 text-slate-200 font-medium">
+            I have shipped systems that handle real users, real data, and real
+            constraints.
           </p>
         </div>
 
