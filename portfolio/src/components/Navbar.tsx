@@ -6,6 +6,7 @@ import { useState } from "react";
 import clsx from "clsx";
 import { Menu, X, Terminal } from "lucide-react";
 
+
 export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);

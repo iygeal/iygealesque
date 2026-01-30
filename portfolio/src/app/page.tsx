@@ -15,8 +15,8 @@ export default function Home() {
 
           <p className="text-lg text-slate-300 max-w-3xl">
             I design, build, and deploy scalable backend APIs and data-driven
-            systems using Django, Flask, Express, SQL & NoSQL databases, and
-            modern cloud platforms.
+            systems, adapting frameworks, databases, and cloud platforms to
+            real-world requirements.
           </p>
 
           {/* Buttons */}
@@ -71,20 +71,24 @@ export default function Home() {
             <div className="space-y-2">
               <p className="font-medium text-slate-100">Backend & APIs</p>
               <p>
-                Django, Flask, Express, REST APIs, authentication &
-                authorization
+                REST API design, authentication and authorization, built with
+                Django, Flask, and Express.
               </p>
             </div>
 
             <div className="space-y-2">
               <p className="font-medium text-slate-100">Databases</p>
-              <p>PostgreSQL, MySQL, MongoDB</p>
+              <p>
+                Relational and NoSQL databases including PostgreSQL, MySQL, and
+                MongoDB.
+              </p>
             </div>
 
             <div className="space-y-2">
               <p className="font-medium text-slate-100">Deployment & Systems</p>
               <p>
-                Render, Vercel, cloud deployments, environment configuration
+                Cloud deployments, environment configuration, and production
+                hosting using Render and Vercel.
               </p>
             </div>
           </div>
