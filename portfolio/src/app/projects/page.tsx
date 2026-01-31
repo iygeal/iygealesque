@@ -102,7 +102,7 @@ export default function ProjectsPage() {
               >
                 <ExternalLink size={16} />
                 <span className="sm:hidden">Live App</span>
-                <span className="hidden sm:inline">Live App</span>
+                <span className="hidden sm:inline">Live Application</span>
               </a>
 
               <a
@@ -113,8 +113,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
-                <span className="sm:hidden">Code</span>
-                <span className="hidden sm:inline">App Code</span>
+                <span className="sm:hidden">Source Code</span>
+                <span className="hidden sm:inline">Source Code</span>
               </a>
             </div>
           </ProjectCard>
@@ -198,7 +198,7 @@ export default function ProjectsPage() {
               >
                 <ExternalLink size={16} />
                 <span className="sm:hidden">Live App</span>
-                <span className="hidden sm:inline">Live App</span>
+                <span className="hidden sm:inline">Live Application</span>
               </a>
 
               <a
@@ -209,8 +209,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
-                <span className="sm:hidden">Code</span>
-                <span className="hidden sm:inline">App Code</span>
+                <span className="sm:hidden">Source Code</span>
+                <span className="hidden sm:inline">Source Code</span>
               </a>
             </div>
           </ProjectCard>
@@ -303,8 +303,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
-                <span className="sm:hidden">Code</span>
-                <span className="hidden sm:inline">App Code</span>
+                <span className="sm:hidden">Source Code</span>
+                <span className="hidden sm:inline">Source Code</span>
               </a>
             </div>
           </ProjectCard>
